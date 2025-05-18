@@ -1,8 +1,8 @@
 import random
 points = {"comp":0,"player":0}
 while True:
-    a = random.randint(10,90)
-    b = random.randint(10, 90)
+    a = random.randint(10,100)
+    b = random.randint(10, 100)
     op = random.choice(("+","-"))
     if op == "+":
         ans = a + b
@@ -14,7 +14,7 @@ while True:
         print("верно!")
         points["player"] += 1
     else:
-        print("ты ошибся,попробуйff еще раз!")
+        print("ты ошибся,попробуйgit push -u origin master еще раз!")
         points["comp"] += 1
     print(f"счет:{points["player"]}:{points["comp"]}")
 
